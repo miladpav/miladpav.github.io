@@ -1,117 +1,194 @@
-<div dir="rtl">
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>رزومه میلاد پوراله وردی</title>
+  <style>
+    body {
+      font-family: "Tahoma", sans-serif;
+      line-height: 1.8;
+      direction: rtl;
+      margin: 2rem;
+      background-color: #fdfdfd;
+      color: #222;
+    }
 
-<h2 dir="rtl">میلاد پوراله وردی | DevOps Engineer</h2>
+    h2, h3 {
+      color: #2c3e50;
+    }
 
-</div>
+    h2 {
+      font-size: 24px;
+      margin-bottom: 0.5rem;
+    }
 
-- 📧 milad.alhvrd@gmail.com
-- ☎️ 09192444719
-- 🎂 Age: 33
-- 📍  Location: Tehran, Iran
-- 🔗 [Other Contact Links](#-لینکها)
+    ul {
+      padding-right: 1.5rem;
+    }
 
-<div dir="rtl">
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
 
-- [🎯 درباره من](#-درباره-من)
-- [💼 سوابق شغلی](#-سوابق-شغلی)
-- [🛠 ابزارها و مهارتها](#-ابزارها-و-مهارتها)
-- [🎓 تحصیلات](#-تحصیلات)
-- [🌐 زبان‌ها](#-زبانها)
-- [🚀 پروژه ها](#-پروژه-ها)
-- [🔗 لینک‌ها](#-لینکها)
+    a:hover {
+      text-decoration: underline;
+    }
 
----
+    .section {
+      margin-top: 2.5rem;
+    }
 
-## 🎯 درباره من
+    .contact-info li {
+      list-style: none;
+    }
 
-مهندس DevOps با بیش از ۸ سال تجربه حرفه‌ای در طراحی، پیاده‌سازی و پایداری زیرساخت‌های نرم‌افزاری در مقیاس سازمانی. دارای درک عمیق از مفاهیم تحویل مستمر، اتوماسیون هوشمند، و معماری سیستم‌های پیچیده با تمرکز بر دسترس‌پذیری بالا و کیفیت پایدار سرویس.  
-نقش کلیدی در ایجاد و بهبود فرآیندهای توسعه و استقرار محصول ایفا کرده‌ام؛ از بازنگری در معماری زیرساخت و کلاسترینگ تا ایجاد اکوسیستم‌های امن، انعطاف‌پذیر و قابل مانیتور.  
-با اشتیاق مداوم به یادگیری و بهینه‌سازی، به‌عنوان نقطه اتصال میان تیم‌های زیرساخت و توسعه عمل می‌کنم؛ با هدف کاهش خطای انسانی، افزایش چرخه تولید نرم‌افزار، و تضمین پایداری سرویس در محیط‌های عملیاتی حساس.  
-نگاه من به DevOps صرفاً ابزاری نیست، بلکه راهکاری اصول‌محور برای ساختن سیستم‌هایی قابل اعتماد، مقیاس‌پذیر و متناسب با نیازهای واقعی کسب‌وکار است.
+    .divider {
+      margin: 2rem 0;
+      border-top: 1px solid #ccc;
+    }
 
+    .header {
+      text-align: right;
+    }
 
----
+    .project-header {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
 
-## 💼 سوابق شغلی
+    .project-header img {
+      width: 24px;
+      height: 24px;
+    }
 
-**متخصص دواپس – شرکت بهسازان ملت**  
-*بهمن 1400 تا اکنون – تهران*  
-- طراحی پایپلاین CI/CD چندمرحله‌ای (Java, Node.js) با GitOps از Dev تا Prod
-- توسعه Helm Charts سفارشی برای استقرار هوشمند در Kubernetes
-- اجرای GitOps برای استقرار خودکار در Kubernetes، Docker، Spring Boot، Tomcat، WebSphere و Node.js
-- طراحی سیستم مدیریت دارایی اتوماتیک با Ansible-CMDB
-- نوشتن اسکریپت‌های اتوماسیون زیرساختی برای بهبود بهره‌وری
-- پیاده‌سازی پایش میکروسرویس‌ها با تمرکز بر Observability و Tracing در Kubernetes
-- توسعه APIهای اتصال زیرساخت با Python
-- ارائه DevOps as a Service به تیم‌ها با Jenkins و Ansible AWX
-- نگهداری از سرویسها و سرورها زیرساختی تیم DevOps
-- آموزش و مشاوره در بازطراحی و بهبود فرآیندهای DevOps
+    .github-stats {
+      margin-top: 1rem;
+      max-width: 100%;
+    }
 
-**مدیر سیستم لینوکس – شرکت بهسازان ملت**  
-*آذر 1396 تا بهمن 1400*  
-- مدیریت، پشتیبانی و به‌روزرسانی سرورهای SUSE Linux Enterprise در محیط‌های حساس بانکی
-- اسکریپت‌نویسی Bash و استفاده از Ansible برای خودکارسازی نصب، کانفیگ و به‌روزرسانی سرویس‌ها
-- نگهداری از سرورهای mission-critical با تأکید بر پایداری و مانیتورینگ سیستم
-- بهینه‌سازی سرویس‌های لینوکسی (مانند Web, App, DB, MQ) و بهبود کارایی منابع در سرورهای فیزیکی و مجازی
-- طراحی و تهیه OVF شخصی سازی شده برای یکپارچگی زیرساخت ها
+    .link-list li {
+      list-style: none;
+    }
+  </style>
+</head>
+<body>
 
-**مهندس IT – شرکت رامپکو**  
-*شهریور 1395 تا آذر 1396*  
-- پیاده‌سازی ESX و سرویس‌های ویندوزی مثل AD، DNS، FTP  
-- مدیریت زیرساخت مجازی و مانیتورینگ اولیه
+  <div class="header">
+    <h2>میلاد پوراله وردی | DevOps Engineer</h2>
+  </div>
 
-**کارشناس Helpdesk – مؤسسه بیوتکنولوژی کشاورزی ایران**  
-*دی 1393 تا مرداد 1395*  
-- پشتیبانی نرم‌افزار و سخت‌افزار، نصب سیستم‌عامل‌ها و پیکربندی شبکه
+  <ul class="contact-info">
+    <li>📧 milad.alhvrd@gmail.com</li>
+    <li>☎️ 09192444719</li>
+    <li>🎂 سن: ۳۳</li>
+    <li>📍 موقعیت: تهران، ایران</li>
+    <li>🔗 <a href="#لینکها">سایر لینک‌ها</a></li>
+  </ul>
 
----
+  <ul>
+    <li><a href="#درباره-من">🎯 درباره من</a></li>
+    <li><a href="#سوابق-شغلی">💼 سوابق شغلی</a></li>
+    <li><a href="#ابزارها-و-مهارتها">🛠 ابزارها و مهارت‌ها</a></li>
+    <li><a href="#تحصیلات">🎓 تحصیلات</a></li>
+    <li><a href="#زبانها">🌐 زبان‌ها</a></li>
+    <li><a href="#پروژه-ها">🚀 پروژه‌ها</a></li>
+    <li><a href="#لینکها">🔗 لینک‌ها</a></li>
+  </ul>
 
-## 🛠 ابزارها و مهارتها
+  <div class="divider"></div>
 
-</div>
+  <div id="درباره-من" class="section">
+    <h3>🎯 درباره من</h3>
+    <p>
+      مهندس DevOps با بیش از ۸ سال تجربه حرفه‌ای در طراحی، پیاده‌سازی و پایداری زیرساخت‌های نرم‌افزاری در مقیاس سازمانی...
+    </p>
+  </div>
 
-- **Infrastructure & Containers:** Linux, Kubernetes، Docker, VMWare
-- **Automation & Configuration:** Ansible، Jenkins، Bash، Python
-- **CI/CD & GitOps:** GitOps Practice, GitLab CI/CD، ArgoCD, SonarQube, IaC
-- **LoadBalancers:** HAProxy، Nginx، Traefik (Loadbalancing, SSL termination)
-- **Observability:** Prometheus، Grafana، Loki, Tempo, ELK
-- **Other Tools:** MinIO، Keycloak, Istio, Velero, Ansible-AWX
-- **Languages:** Python، Bash
+  <div id="سوابق-شغلی" class="section">
+    <h3>💼 سوابق شغلی</h3>
 
-<div dir="rtl">
+    <strong>متخصص دواپس – شرکت بهسازان ملت</strong><br />
+    <em>بهمن 1400 تا اکنون – تهران</em>
+    <ul>
+      <li>طراحی پایپلاین CI/CD چندمرحله‌ای...</li>
+      <li>توسعه Helm Charts سفارشی...</li>
+    </ul>
 
----
+    <strong>مدیر سیستم لینوکس – شرکت بهسازان ملت</strong><br />
+    <em>آذر 1396 تا بهمن 1400</em>
+    <ul>
+      <li>مدیریت سرورهای SUSE Linux...</li>
+    </ul>
 
-## 🎓 تحصیلات
+    <strong>مهندس IT – شرکت رامپکو</strong><br />
+    <em>شهریور 1395 تا آذر 1396</em>
+    <ul>
+      <li>پیاده‌سازی ESX و سرویس‌های ویندوزی...</li>
+    </ul>
 
-کارشناسی فناوری اطلاعات – دانشگاه غیرانتفاعی صوفی زنجان  
-*۱۳۸۹ تا ۱۳۹۳*
+    <strong>کارشناس Helpdesk – مؤسسه بیوتکنولوژی کشاورزی ایران</strong><br />
+    <em>دی 1393 تا مرداد 1395</em>
+    <ul>
+      <li>پشتیبانی نرم‌افزار و سخت‌افزار...</li>
+    </ul>
+  </div>
 
----
+  <div id="ابزارها-و-مهارتها" class="section">
+    <h3>🛠 ابزارها و مهارت‌ها</h3>
+    <ul>
+      <li><strong>Infrastructure & Containers:</strong> Linux, Kubernetes، Docker, VMWare</li>
+      <li><strong>Automation & Configuration:</strong> Ansible، Jenkins، Bash، Python</li>
+      <li><strong>CI/CD & GitOps:</strong> GitOps, GitLab CI/CD، ArgoCD, SonarQube</li>
+      <li><strong>LoadBalancers:</strong> HAProxy، Nginx، Traefik</li>
+      <li><strong>Observability:</strong> Prometheus، Grafana، Loki, Tempo</li>
+      <li><strong>Other Tools:</strong> MinIO، Keycloak, Istio, Velero</li>
+      <li><strong>Languages:</strong> Python، Bash</li>
+    </ul>
+  </div>
 
-## 🌐 زبان‌ها
+  <div id="تحصیلات" class="section">
+    <h3>🎓 تحصیلات</h3>
+    <p>کارشناسی فناوری اطلاعات – دانشگاه غیرانتفاعی صوفی زنجان (۱۳۸۹ تا ۱۳۹۳)</p>
+  </div>
 
-- فارسی: زبان مادری  
-- انگلیسی: مسلط در محیط فنی و مستندات  
+  <div id="زبانها" class="section">
+    <h3>🌐 زبان‌ها</h3>
+    <ul>
+      <li>فارسی: زبان مادری</li>
+      <li>انگلیسی: مسلط در محیط فنی و مستندات</li>
+    </ul>
+  </div>
 
----
+  <div id="پروژه-ها" class="section">
+    <div class="project-header">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg" alt="GitHub" />
+      <h3>🚀 پروژه‌ها</h3>
+    </div>
+    <ul>
+      <li><a href="https://github.com/miladpav/send-sms-alertmanager">SMS Alertmanager</a></li>
+      <li><a href="https://github.com/miladpav/cmdb-stack">Ansible Asset Management CMDB</a></li>
+      <li><a href="https://github.com/miladpav/TMWAY">Ansible Dynamic Inventory Generator</a></li>
+    </ul>
 
-## 🚀 پروژه ها
+    <div class="github-stats">
+      <a href="#"><img src="https://github-readme-stats.vercel.app/api?username=miladpav&show_icons=true&theme=radical" alt="GitHub Stats"></a>
+    </div>
+  </div>
 
-- [SMS Alertmanager](https://github.com/miladpav/send-sms-alertmanager)
-- [Ansible Asset Management CMDB](https://github.com/miladpav/cmdb-stack)
-- [Ansible Dynamic Inventory Generator](https://github.com/miladpav/TMWAY)
+  <div id="لینکها" class="section">
+    <h3>🔗 لینک‌ها</h3>
+    <ul class="link-list">
+      <li>LinkedIn: <a href="https://linkedin.com/in/milad-alahverdi">linkedin.com/in/milad-alahverdi</a></li>
+      <li>GitHub: <a href="https://github.com/miladpav">github.com/miladpav</a></li>
+      <li>Telegram: <a href="https://t.me/MilaD_PaV">t.me/MilaD_PaV</a></li>
+      <li>Skype ID: milad.alhvrd_1</li>
+      <li>Email (دیگر): m.p.allahverdi@gmail.com</li>
+    </ul>
+  </div>
 
----
-
-[![miladpav's GitHub stats](https://github-readme-stats.vercel.app/api?username=miladpav&show_icons=true&theme=radical)](#)
-
-## 🔗 لینک‌ها
-
-- LinkedIn: [linkedin.com/in/milad-alahverdi](https://linkedin.com/in/milad-alahverdi)  
-- GitHub: [github.com/miladpav](https://github.com/miladpav)
-- Telegram: [https://t.me/MilaD_PaV](https://t.me/MilaD_PaV)
-- Skype ID: milad.alhvrd_1
-- Additional Email: m.p.allahverdi@gmail.com
-
-</div>
+</body>
+</html>
